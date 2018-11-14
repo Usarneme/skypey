@@ -13,7 +13,7 @@ const Empty = ({ user }) => {
       </p>
       <button className="Empty__btn">Start a conversation</button>
       <p className="Empty__info">
-        Search for someone to start chatting with or go to Contacts to see who
+        Search for someone to begin chatting with or go to Contacts to see who
         is available
       </p>
     </div>

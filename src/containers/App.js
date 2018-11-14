@@ -14,7 +14,7 @@ const App = () => {
   console.dir(store.getState())
 
   return (
-    <div className="App">
+    <div className="App app">
       <Sidebar contacts={_.values(contacts)} />
       <Main user={user} activeUserId={activeUserId} />
     </div>

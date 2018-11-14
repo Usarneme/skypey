@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Empty from './Empty'
-import ChatWindow from './ChatWindow'
+import ChatWindow from '../containers/ChatWindow'
 
 const Main = ({ user, activeUserId }) => {
   console.log('Rendering Main with active user id:',activeUserId)
